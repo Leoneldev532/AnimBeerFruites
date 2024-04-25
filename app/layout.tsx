@@ -20,13 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${police.className}`} >
+    <html lang="en" className={`${police.className} w-full`} >
       
       <body className={inter.className + "flex justify-center items-center flex-col w-full"}>
         <div className="flex justify-center flex-col items-center max-w-[1450px] w-full"> 
-      <Header/>
-        {children}
-        </div>
+          <Header/>
+          {children}
+          </div>
         </body>
         
     </html>
