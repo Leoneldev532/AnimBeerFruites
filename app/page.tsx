@@ -169,7 +169,7 @@ export default function Home() {
   // bg-[#A5F948]
 
   return (
-    <main ref={parent} className="flex max-h-screen  bgop overflow-hidden flex-col items-center justify-between">
+    <main ref={parent} className="flex h-screen   bgop overflow-hidden flex-col items-center justify-between">
       <div className={`min-h-screen relative  w-full ${state.isActive1 ? "active" : null } `}>
         <div className="absolute  z-20 flex justify-center items-center w-full h-full">
 
