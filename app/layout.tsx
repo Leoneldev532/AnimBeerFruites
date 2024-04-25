@@ -22,10 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${police.className}`} >
       
-      <body className={inter.className}>
+      <body className={inter.className + "flex justify-center items-center flex-col"}>
+        <div className="flex justify-center flex-col items-center max-w-[1450px] w-full"> 
       <Header/>
         {children}
+        </div>
         </body>
+        
     </html>
   );
 }
